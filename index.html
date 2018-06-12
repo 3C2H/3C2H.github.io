@@ -10,44 +10,46 @@
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 2vmax Helvetica, Sans-Serif; line-height: 3vmax; }
+        body {  }
         .clear { clear: both; }
         /* #contact-info {} */
         #page-wrap { width: 85%; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
-        /* .vertiLine1 { display:flex; justify-content: center;border: 1.5px solid green; height: 8vmax; } */
-        /* h1 { margin: 0px 0px 20px 0px; font-size: 8vmax; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgb(0, 0, 0); } */
-        h2 { font-size: 3vmax; margin: 0 0 6px 0; position: relative; }
-        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vmax; color: #999; font-weight: normal; }        
+        /* .vertiLine1 { display:flex; justify-content: center;border: 1.5px solid green; height: 8vw; } */
+        /* h1 { margin: 0px 0px 20px 0px; font-size: 8vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgb(0, 0, 0); } */
+        h2 { font-size: 3vw; margin: 0 0 6px 0; position: relative; }
+        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vw; color: #999; font-weight: normal; }        
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
-        /* .bigBlock {} */
+        .bigBlock { font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
         ul { margin: 0 0 32px 17px; }
         #objective { width: 500px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 80%; float: right; }
-        dd.clear { float: none; margin: 0; height: 4vmax; }
-        .contact-info { display: flex; flex: 1; justify-content:center; align-items: center; }
+        dd.clear { float: none; margin: 0; height: 4vw; }
+        .contact-info { display: flex; flex: 1; justify-content:center; align-items: center; font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
         #contactLeft { float: left; border-left: 2px green; border-left-style: dashed; padding-left: 20px; align-self: center; }
         #contactRight { float: right; border-left: 2px green; border-left-style: dashed; padding-left: 20px; }
         .email {color: greenyellow;}
         .contactTitle { margin-right: 20px; padding-right: 20px; }
-        .documentTitle { display:flex; justify-content: center; padding: 0px 0px 30px 0px;margin: 0px 0px 30px 0px; font-size: 7vmin; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vmax; border-bottom: 1px solid rgb(0, 0, 0); }
+        .documentTitle { display:flex; justify-content: center; padding: 0px 0px 30px 0px;margin: 0px 0px 30px 0px; font-size: 7vmin; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; border-bottom: 1px solid rgb(0, 0, 0); }
         .listContainer { display: flex; justify-content: center; }
-        #skillsLeft { float: left; padding-left: 20px; align-self: center; }
-        #skillsRight { float: right; padding-right: 20px; align-self: center; }
+        .skillsContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
+        .skillsLeft { float: left; padding-left: 20px; align-self: center; }
+        .skillsRight { float: right; padding-right: 20px; align-self: center; }
         /* .skillList { float: left; flex: 1; }
         li.skillList { margin-right: 5px } */
-        .skillsContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
-        .hobbiesContainer { display: flex; flex: 1; justify-content:space-evenly; }
+        /* .hobbiesContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
         .hobbiesLeft { float: left; padding-left: 10px; align-self: center; }
         .hobbiesMiddle { padding-left: 10px; align-self: center; }
-        .hobbiesRight { float: right; padding-right: 10px; align-self: center; }
-
-
-        .hobbiesList { float: left; flex: 1; }
+        .hobbiesRight { float: right; padding-right: 10px; align-self: center; } */
+        .hobbiesContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
+        .hobbiesLeft { float: left; padding-left: 20px; align-self: center; }
+        .hobbiesMiddle { padding-left: 10px; align-self: center; }
+        .hobbiesRight { float: right; padding-right: 20px; align-self: center; }
+        /* .hobbiesList { float: left; flex: 1; } */
      </style>
 </head>
 
@@ -72,7 +74,7 @@
             <div id="contactRight">
                 <span class="tel">Cell:+33 6 88 44 39 77</span><br>
                 <span>Né le 04/12/1984</span><br>
-                <span>Mon GitHub :<a class="email" href="https://github.com/3C2H">3C2H</a></span>
+                <span>Mon GitHub:<a class="email" href="https://github.com/3C2H"> 3C2H</a></span>
             </div>      
         </div>
                 
@@ -124,7 +126,7 @@
                     </li>                    
                 </ul>
 
-                <h3>2008 - Technicien Systèmes Automatisés&emsp;<span><a class="email" href="https://www.csp-epl.com/">CSP (Moussy-le-Neuf)</a></span></h3>
+                <h3>2008 - Technicien Systèmes Automatisés&emsp;<span><a class="email" href="https://www.csp-epl.com/">CSP (Moussy)</a></span></h3>
                 <ul><a class="email" href="https://www.vanderlande.com/">VANDERLANDE INDUSTRIES</a>
                     <li>Maintenance du trieur automatisé de colis haute cadence, interventions sur réseaux serveurs et PC;
                         gestion d'intervenants extérieurs, rôle d'interface technique avec le client.
@@ -138,12 +140,12 @@
             <h2>Compétences</h2>
             <div class="skillsContainer">        
                 <!-- Microformats! -->   
-                <div id="skillsLeft">
+                <div class="skillsLeft">
                     <span><li>Capacité d'adaptation, professionnalisme&ensp;</li></span>
                     <span><li>Tecnicité, expérience software et hardware&ensp;</li></span>
                 </div>
                     
-                <div id="skillsRight">
+                <div class="skillsRight">
                     <span><li>Travail en équipe et en autonomie&ensp;</li></span>
                     <span><li>Relationnel, force de proposition&ensp;</li></span>
                 </div>      
@@ -163,7 +165,6 @@
 
             <h2>Loisirs & champs d'interêt</h2>
             <div class="hobbiesContainer">        
-                <!-- Microformats! -->   
                 <div class="hobbiesLeft">
                     <li>Informatique&ensp;</li>
                     <li>Nouvelles Technologies&ensp;</li>
