@@ -12,30 +12,28 @@
         * { margin: 0; padding: 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 85%; float: right; }
-        dd.clear { float: none; margin: 0; height: 4vw; }
-        h2 { font-size: 3vw; margin: 0 0 6px 0; position: relative; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; height: 100px; border-right: 1px solid #999; }
+        dd { width: 100%; padding-left: 15%; }
+        h2 { font-size: 3vw; margin: 2vw 0 2vw 0; position: relative; }
         h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vw; color: #999; font-weight: normal; }        
         p { margin: 0 0 16px 0; }
         ul { margin: 0 0 32px 17px; }
         .bigBlock { font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
-        .clear { clear: both; }
         .contact-info { display: flex; flex: 1; justify-content:center; align-items: center; font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
-        .contactLeft { float: left; border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; align-self: center; margin-right: 3px }
-        .contactRight { float: right; border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; }
-        .contactTitle { margin-right: 20px; padding-right: 20px; }
+        .contactLeft { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; align-self: center; margin-right: 3px; }
+        .contactRight { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; }
+        .contactTitle { font-style: italic; margin-right: 20px; padding-right: 20px; }
         .documentTitle { display:flex; justify-content: center; padding: 0px 0px 30px 0px;margin: 0px 0px 30px 0px; font-size: 7vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; border-bottom: 1px solid rgb(0, 0, 0); text-shadow: -2px 2px 2px #999; }
         .email { font-style: italic; color: rgb(110, 175, 10); text-shadow: -0.5px 0.5px 0.5px #999; }
         .hobbiesContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
-        .hobbiesLeft { float: left; padding-left: 20px; align-self: center; }
+        .hobbiesLeft { align-self: center; }
         .hobbiesMiddle { padding-left: 10px; align-self: center; }
-        .hobbiesRight { float: right; padding-right: 20px; align-self: center; }
+        .hobbiesRight { align-self: center; }
         .listContainer { display: flex; justify-content: center; }
         .page-wrap { width: 85%; margin: 40px auto 60px; }
         .skillsContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
-        .skillsLeft { float: left; padding-left: 20px; align-self: center; }
-        .skillsRight { float: right; padding-right: 20px; align-self: center; }
+        .skillsLeft { align-self: center; }
+        .skillsRight { align-self: center; }
      </style>
 </head>
 
@@ -65,7 +63,6 @@
         </div>
        
         <dl class="bigBlock">
-            <dd class="clear"></dd>            
             <h2>Formation</h2>
             <dd>
                 <p><strong>DEVELOPPEUR WEB & LOGICIELS (2018)</strong> - Wild code School, Paris.<br>
@@ -73,9 +70,7 @@
                    <strong>BTS MAI (2007)</strong> - Mécanique & Automatismes Industriels.<br>
                    <strong>BAC STI (2003)</strong> - Sciences & Technologies Industrielles.<br>
                 </p>                   
-            </dd>
-            
-            <dd class="clear"></dd>
+            </dd>            
             
             <h2>Expérience</h2>
             <dd>
@@ -88,7 +83,6 @@
                         Un annuaire de liens relatifs à la formation, simple à administrer & consulter, responsive, design;<br>
                         > <a class="email" href="https://dream-team-project-wcs.github.io/Wild-Codak/index.html">Wild Codak</a>
                         Un site web de type galerie d'exposition, responsive, design et intuitif.</li>
-                    <!-- <li>Réalisation des Wireframes des projets, travaux en collaboration sur GitHub</li> -->
                 </ul>
                 
                 <h3>2013 - Technicien SAV itinérant&emsp;<span>France/Etranger</span></h3>
@@ -111,52 +105,51 @@
                         Echanges en anglais avec le siège Hollandais. 
                     </li>                    
                 </ul>
-            </dd>
-            
-            <dd class="clear"></dd>
+            </dd>       
 
             <h2>Compétences</h2>
             <div class="skillsContainer">        
 
                 <div class="skillsLeft">
-                    <span><li>Bilingue Anglais/francais, littéraire & technique&ensp;</li></span>
-                    <span><li>Technicité, expérience software et hardware&ensp;</li></span>
+                    <ul>
+                        <span><li>Bilingue Anglais/francais, littéraire & technique&ensp;</li></span>
+                        <span><li>Technicité, expérience software et hardware&ensp;</li></span>
+                    </ul>    
                 </div>
                     
                 <div class="skillsRight">
-                    <span><li>Travail en équipe et en autonomie&ensp;</li></span>
-                    <span><li>Relationnel, force de proposition&ensp;</li></span>
+                    <ul>
+                        <span><li>Travail en équipe et en autonomie&ensp;</li></span>
+                        <span><li>Relationnel, force de proposition&ensp;</li></span>
+                    </ul>    
                 </div>      
             </div>
             
-            <dd class="clear"></dd>
-
             <h2>Loisirs & champs d'interêt</h2>
             <div class="hobbiesContainer">        
                 <div class="hobbiesLeft">
-                    <li>Informatique&ensp;</li>
-                    <li>Nouvelles Technologies&ensp;</li>
+                    <ul>
+                        <li>Jeux-videos & modding</li>
+                        <li>Nouvelles technologies</li>
+                    </ul>    
                 </div>
             
                 <div class="hobbiesMiddle">
-                    <li>Sciences&ensp;</li>
-                    <li>Musique&ensp;</li>
+                    <ul>
+                        <li>Sciences</li>
+                        <li>Musique</li>
+                    </ul>    
                 </div>    
                     
                 <div class="hobbiesRight">
-                    <li>Lecture&ensp;</li>
-                    <li>Sport&ensp;</li>
+                    <ul>
+                        <li>Lecture (anticipation, SF, fantasy)</li>
+                        <li>Sport (vélo, paintball)</li>
+                    </ul>    
                 </div>      
             </div>
-
-            <dd class="clear"></dd>
-            
         </dl>
-        
-        <div class="clear"></div>
-    
     </div>
-
 </body>
 
 </html>
