@@ -11,27 +11,30 @@
         /* By alphabetical order */
         * { margin: 0; padding: 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
+        a:hover { border-bottom-style: solid; color: rgb(255, 165, 0); }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; height: 100px; border-right: 1px solid #999; }
-        dd { width: 100%; padding-left: 15%; }
+        dd { width: 100%; padding-left: 8%; }
         h2 { font-size: 3vw; margin: 2vw 0 2vw 0; position: relative; }
-        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vw; color: #999; font-weight: normal; }        
+        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vw; color: rgb(100, 100, 100); font-weight: normal; }  
         p { margin: 0 0 16px 0; }
         ul { margin: 0 0 32px 17px; }
         .bigBlock { font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
-        .contact-info { display: flex; flex: 1; justify-content:center; align-items: center; font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
+        .contact-info { display: flex; flex: 1; justify-content: center; align-items: center; font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
         .contactLeft { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; align-self: center; margin-right: 3px; }
         .contactRight { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; }
         .contactTitle { font-style: italic; margin-right: 20px; padding-right: 20px; }
-        .documentTitle { display:flex; justify-content: center; padding: 0px 0px 30px 0px;margin: 0px 0px 30px 0px; font-size: 7vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; border-bottom: 1px solid rgb(0, 0, 0); text-shadow: -2px 2px 2px #999; }
+        .documentTitle { display: flex; justify-content: center; padding: 0px 0px 30px 0px; margin: 0px 0px 30px 0px; font-size: 7vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; text-shadow: -2px 2px 2px #999; }
         .email { font-style: italic; color: rgb(110, 175, 10); text-shadow: -0.5px 0.5px 0.5px #999; }
-        .hobbiesContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
+        .hobbiesContainer { display: flex; flex: 1; justify-content: space-evenly; align-items: center; }
         .hobbiesLeft { align-self: center; }
         .hobbiesMiddle { padding-left: 10px; align-self: center; }
         .hobbiesRight { align-self: center; }
         .listContainer { display: flex; justify-content: center; }
         .page-wrap { width: 85%; margin: 40px auto 60px; }
-        .skillsContainer { display: flex; flex: 1; justify-content:space-evenly; align-items: center; }
+        .react-cv-container { display: flex; flex: 1; flex-direction: column;font-size: 2vw; align-items: center; justify-content: center; margin-bottom: 30px;text-align: center }
+        .react-box { border-bottom: 1.5px ridge rgb(35, 175, 200) ; border-top: 1.5px ridge rgb(35, 175, 200); border-radius: 2vw; border-width: 0.5vw; width: 60% }
+        .react-link { color: rgb(35, 135, 200); font-size: 2.5vw; text-shadow: -0.5px 0.5px 0.5px #999; }
+        .skillsContainer { display: flex; flex: 1; justify-content: space-evenly; align-items: center; }
         .skillsLeft { align-self: center; }
         .skillsRight { align-self: center; }
      </style>
@@ -43,6 +46,15 @@
         
        <div><h1 class="documentTitle">WEB DEVELOPER</h1></div> 
 
+        <div class="react-cv-container">
+
+            <div class="react-box">
+                <span><a class="react-link" href="https://react-3c2h-cv.herokuapp.com/"><h3> >> Consultez mon CV REACT << </h3></a></span>
+                <span>(Connexion internet requise)</span>
+            </div>
+
+       </div>
+
         <div class="contact-info">        
 
             <div class="contactTitle">CONTACT</div>
@@ -53,13 +65,12 @@
                 Email: <a class="email" href="mailto:Charles.CHIACCHIA@Gmail.com">Charles.CHIACCHIA@Gmail.com</a>              
             </div>
             
-            <span class="vertiLine1"></span>
-
             <div class="contactRight">
                 <span class="tel">Cell:+33 6 88 44 39 77</span><br>
                 <span>Né le 04/12/1984</span><br>
                 <span>Mon GitHub:<a class="email" href="https://github.com/3C2H"> 3C2H</a></span>
-            </div>      
+            </div>
+                  
         </div>
        
         <dl class="bigBlock">
