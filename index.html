@@ -14,16 +14,16 @@
         a:hover { border-bottom-style: solid; color: rgb(255, 165, 0); }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; height: 100px; border-right: 1px solid #999; }
         dd { width: 100%; padding-left: 8%; }
-        h2 { font-size: 3vw; margin: 2vw 0 2vw 0; position: relative; }
-        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 2.2vw; color: rgb(100, 100, 100); font-weight: normal; }  
+        h2 { font-size: 2vw; margin: 2vw 0 2vw 0; position: relative; }
+        h3 span { font-style: italic; font-family: Georgia, Serif; font-size: 1.5vw; color: rgb(100, 100, 100); font-weight: normal; }  
         p { margin: 0 0 16px 0; }
         ul { margin: 0 0 32px 17px; }
-        .bigBlock { font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
-        .contact-info { display: flex; flex: 1; justify-content: center; align-items: center; font: 2vw Helvetica, Sans-Serif; line-height: 3vw; }
+        .bigBlock { font: 1.5vw Helvetica, Sans-Serif; line-height: 2.5vw; }
+        .contact-info { display: flex; flex: 1; justify-content: center; align-items: center; font: 1.5vw Helvetica, Sans-Serif; line-height: 3vw; }
         .contactLeft { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; align-self: center; margin-right: 3px; }
         .contactRight { border-left: 2px greenyellow; border-left-style: dashed; padding-left: 20px; }
         .contactTitle { font-style: italic; margin-right: 20px; padding-right: 20px; }
-        .documentTitle { display: flex; justify-content: center; padding: 0px 0px 30px 0px; margin: 0px 0px 30px 0px; font-size: 7vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; text-shadow: -2px 2px 2px #999; }
+        .documentTitle { display: flex; justify-content: center; padding: 0px 0px 30px 0px; margin: 0px 0px 30px 0px; font-size: 6vw; color: rgb(90, 210, 120); font-weight: bold; letter-spacing: 0.5vw; text-shadow: -2px 2px 2px #999; }
         .email { font-style: italic; color: rgb(110, 175, 10); text-shadow: -0.5px 0.5px 0.5px #999; }
         .hobbiesContainer { display: flex; flex: 1; justify-content: space-evenly; align-items: center; }
         .hobbiesLeft { align-self: center; }
@@ -31,9 +31,9 @@
         .hobbiesRight { align-self: center; }
         .listContainer { display: flex; justify-content: center; }
         .page-wrap { width: 85%; margin: 40px auto 60px; }
-        .react-cv-container { display: flex; flex: 1; flex-direction: column;font-size: 2vw; align-items: center; justify-content: center; margin-bottom: 30px;text-align: center }
+        .react-cv-container { display: flex; flex: 1; flex-direction: column;font-size: 1vw; align-items: center; justify-content: center; margin-bottom: 30px;text-align: center }
         .react-box { border-bottom: 1.5px ridge rgb(35, 175, 200) ; border-top: 1.5px ridge rgb(35, 175, 200); border-radius: 2vw; border-width: 0.5vw; width: 60% }
-        .react-link { color: rgb(35, 135, 200); font-size: 2.5vw; text-shadow: -0.5px 0.5px 0.5px #999; }
+        .react-link { color: rgb(35, 135, 200); font-size: 1.5vw; text-shadow: -0.5px 0.5px 0.5px #999; }
         .skillsContainer { display: flex; flex: 1; justify-content: space-evenly; align-items: center; }
         .skillsLeft { align-self: center; }
         .skillsRight { align-self: center; }
@@ -46,14 +46,14 @@
         
        <div><h1 class="documentTitle">WEB DEVELOPER</h1></div> 
 
-        <div class="react-cv-container">
+        <!-- <div class="react-cv-container">
 
             <div class="react-box">
                 <span><a class="react-link" href="https://react-3c2h-cv.herokuapp.com/"><h3> >> Consultez mon CV REACT << </h3></a></span>
                 <span>(Connexion internet requise)</span>
             </div>
 
-       </div>
+       </div> -->
 
         <div class="contact-info">        
 
@@ -85,6 +85,17 @@
             
             <h2>Expérience</h2>
             <dd>
+                <h3>2018 - Stagiaire developpeur logiciel&emsp;<span>Node.js/Angular</span></h3>
+                <ul><a class="email" href="http://wop-app.com/">WOP - Issy-Les-Moulineaux</a>
+                    <li>Développement fullstack des composants d'une application Angular de billetterie pour transports urbains.
+                    </li>
+                    </li>
+                        > Développement de la partie achats, de l'interface utilisateur et de l'interface administrateur;<br>
+                        > Utilisation de Git & Jira pour le versionning, Mocha, Chai & Postman pour les phases de tests, MongoDB et Nosqlbooster pour la base de données;
+                        > Réalisation des test (TDD), développement & intégration de correctifs.<br>
+                    </li>
+                </ul>
+
                 <h3>2018 - Formation dévelopement Web&emsp;<span>Javascript/React/HTML/CSS.</span></h3>
                 <ul><a class="email" href="https://wildcodeschool.fr/">Wild Code School - Paris</a>
                     <li>Formation intensive sur JAVASCRIPT, REACT, NODE, HTML, CSS.</li>
@@ -93,13 +104,15 @@
                         > <a class="email" href="https://github.com/WildCodeSchool/paris-0218-wild-source/blob/finitions-css/README.md">Wild Source</a>
                         Un annuaire de liens relatifs à la formation, simple à administrer & consulter, responsive, design;<br>
                         > <a class="email" href="https://dream-team-project-wcs.github.io/Wild-Codak/index.html">Wild Codak</a>
-                        Un site web de type galerie d'exposition, responsive, design et intuitif.</li>
+                        Un site web de type galerie d'exposition, responsive, design et intuitif.
+                    </li>
                 </ul>
                 
                 <h3>2013 - Technicien SAV itinérant&emsp;<span>France/Etranger</span></h3>
                 <ul><a class="email" href="http://www.logopak.fr/">LOGOPAK FRANCE</a>
                     <li>Deploiement et SAV d'étiqueteuses industrielles à haute cadence, et des systèmes informatiques inhérents (PC, DB, comm, reseaux).</li>
-                    <li>Assistance technique et formations clients, référent technique, Veille, échanges en anglais avec la hotline lorsque à l'etranger.</li>
+                    <li>Assistance technique et formations clients, référent technique, Veille, échanges en anglais avec la hotline lorsque à l'etranger.
+                    </li>
                 </ul>
                 
                 <h3>2011 - Automaticien Travaux neufs&emsp;<span>Paris & IDF</span></h3>
@@ -140,7 +153,7 @@
             <div class="hobbiesContainer">        
                 <div class="hobbiesLeft">
                     <ul>
-                        <li>Jeux-videos & modding</li>
+                        <li>Musique</li>
                         <li>Nouvelles technologies</li>
                     </ul>    
                 </div>
@@ -148,7 +161,7 @@
                 <div class="hobbiesMiddle">
                     <ul>
                         <li>Sciences</li>
-                        <li>Musique</li>
+                        <li>Jeux-videos & modding</li>
                     </ul>    
                 </div>    
                     
